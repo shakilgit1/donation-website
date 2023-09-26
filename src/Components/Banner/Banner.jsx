@@ -7,11 +7,8 @@ const Banner = () => {
   //    .then(res => res.json())
   //    .then(data => setData(data))
   // }, [])
-   
   const handleSearch = e => {
-     e.preventDefault();
-    // const searchValue = e.target.text.value;
-    // // console.log(findData);   
+    e.preventDefault()
   }
 
   return (

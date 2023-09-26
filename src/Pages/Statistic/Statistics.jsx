@@ -23,21 +23,22 @@ const Statistics = () => {
   const data01 = [
     {
       name: "Group A",
-      value: percent,
-      color : "red"
+      value: toFixed,
+      color: "red",
+      
     },
     {
       name: "Group C",
-      value: toFixed,
-      color: "green",
+      value: percent,
+      color : "teal"
     },
   ];
 
   return (
-    <div className="w-10/12 mx-auto flex justify-center items-center">
-    <div>     
-    <PieChart width={600} height={600}>
-  <Pie
+    <div className="w-10/12 mx-auto flex justify-center items-center ">
+    <div className=" mx-auto">     
+    <PieChart width={700} height={700}>
+    <Pie
     dataKey={`value`}
     isAnimationActive={false}
     data={data01}
@@ -45,17 +46,17 @@ const Statistics = () => {
     cy="50%"
     outerRadius={200}
     label
-  >
+    >
     {data01.map((entry, index) => (
       <Cell key={`cell-${index}`} fill={entry.color} />
     ))}
 
-  </Pie>
+    </Pie>
     </PieChart>
 
-      <div className="flex gap-10 text-center">
-        <h2>Your Donation: </h2>
-        <h2>Total Donation</h2>
+      <div className="flex gap-10 text-center justify-center mb-16">
+        <h2>Your Donation <span className="bg-teal-600 px-14 ml-4"></span> </h2>
+        <h2>Total Donation <span className="bg-red-500 px-14 ml-4"></span></h2>
       </div>
 
     </div>
