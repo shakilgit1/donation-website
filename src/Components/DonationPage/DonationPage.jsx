@@ -20,7 +20,7 @@ const DonationPage = ({ donate }) => {
           <p className="text-xl font-bold">{title}</p>
           <p style={{color: text_button_bg_color}} className="font-bold"> ${price}</p>
           <div className="card-actions">
-          <button style={{backgroundColor: text_button_bg_color}} className="btn border-none text-white capitalize text-lg">View Details</button>
+          <button style={{backgroundColor: text_button_bg_color}} className=" border-none text-white capitalize text-lg px-6 py-1 md:py-3 rounded-lg">View Details</button>
           </div>
         </div>
       </div>

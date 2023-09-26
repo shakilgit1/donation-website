@@ -8,10 +8,9 @@ const Statistics = () => {
 
   const donatePercentage = (getItem.length / loadData.length) * 100;
   const percent = parseFloat(donatePercentage.toFixed(2));
-  // const p = percent;
+  
   const total = 100 - donatePercentage;
   const toFixed = parseFloat(total.toFixed(2));
-  console.log(toFixed);
 
   useEffect(() => {
     const getFromLS = JSON.parse(localStorage.getItem("donate"));
