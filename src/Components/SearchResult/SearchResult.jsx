@@ -5,7 +5,7 @@ const SearchResult = ({item}) => {
     // console.log(item);
     return (
         <div>
-            <li >{item.category}</li>
+            {/* <li >{item.category}</li> */}
         </div>
     );
 };
