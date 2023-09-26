@@ -1,4 +1,4 @@
-# React here are some projects features
+# Here i am discussing about some project features
 
 ## Features of Health
 
