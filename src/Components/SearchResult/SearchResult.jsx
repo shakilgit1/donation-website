@@ -3,7 +3,7 @@
 // const SearchResult = () => {
 //     return (
 //         <div>
-           
+//             <div></div>
 //         </div>
 //     );
 // };
