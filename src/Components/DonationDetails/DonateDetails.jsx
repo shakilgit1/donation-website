@@ -37,7 +37,7 @@ const handleDonate = () => {
           src={image}
         />
 
-        <div className='absolute w-full py-2 md:p-12 opacity-60 bg-black mt-[160px] md:mt-[400px] lg:mt-[400px] xl:mt-[400px] 2xl:mt-[600px] bg-blend-overlay'>
+        <div className='absolute w-full py-2 md:p-12 bg-opacity-60 bg-black mt-[160px] md:mt-[400px] lg:mt-[400px] xl:mt-[400px] 2xl:mt-[600px] bg-blend-overlay'>
         <div className="card-actions">
         <button onClick={handleDonate} style={{backgroundColor: text_button_bg_color}} className="btn border-none text-white ml-10">Donate ${price}</button>
         </div>
